@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  /* background-color: blue; */
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.nav a {
+  color: black;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.category {
+  color: black; /* changed from white to black */
+  padding: 10px; /* reduced padding */
+  border: none; /* removed border */
+  text-align: center;
+  flex: 1 0 calc(100% / 9 - 1.5em); /* reduced width */
+  margin: 0.5em; /* reduced margin */
+  height: 120px; /* increased height to accommodate image and text */
+  display: flex;
+  flex-direction: column; /* changed from row (default) to column */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.category img {
+  width: 50%; /* adjust as needed */
+  height: auto; /* maintain aspect ratio */
+  margin-bottom: 10px; /* space between image and text */
+}
+
+.deals {
+  margin: 20px 0;
+}
+
+.deals .deal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.deals .deal .sub-deal {
+  background-color: #ffffff;
+  padding: 0px; /* No padding */
+  border-radius: 4px;
+  text-align: center;
+  margin: 5px;
+  flex: 1 0 3%; /* Further reduced size of box */
+  border: 1px solid #000000;
+}
+
+.deals .deal .sub-deal .deal-image {
+  width: 30%; /* Further reduced size of image */
+  display: block;
+  object-fit: contain;
+  margin: auto;
+}
+
+.footer {
+  background-color: #000000; /* Black background */
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #ffffff; /* White text */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  color: #d3d3d3; /* Greyish white heading */
+}
+
+.footer-section a {
+  display: block;
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+}
